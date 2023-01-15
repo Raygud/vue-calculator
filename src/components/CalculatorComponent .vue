@@ -167,7 +167,7 @@ li {
     background-color: rgb(75, 75, 75);
 }
 
-li:hover {
+li:active {
     background-color: rgb(128, 140, 150);
     transition: 200ms ease-in-out;
 }
