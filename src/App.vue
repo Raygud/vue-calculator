@@ -28,11 +28,13 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  font-size: 15vw;
+  background-color: #272727;
+  height: 100vh;
 }
 
 .MainContainer {
 
-  background-color: #272727;
   width: 100vw;
   margin: auto;
 }

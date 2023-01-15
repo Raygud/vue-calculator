@@ -163,6 +163,7 @@ li {
     align-items: center;
     justify-content: center;
     width: 32.9%;
+    /* Patch work should have gone with grid  */
     aspect-ratio: 1/1;
     background-color: rgb(75, 75, 75);
 }
@@ -173,8 +174,9 @@ li:active {
 }
 
 .WideItem {
-    width: 65.9%;
-    aspect-ratio: 2.001/1;
+    /* Patch work should have gone with grid  */
+    width: 66.45%;
+    aspect-ratio: 2/1;
 
 }
 
@@ -187,7 +189,6 @@ li:active {
     align-items: flex-end;
     justify-content: flex-end;
     gap: 0.5vw;
-    font-size: 8vw;
     color: #ffffff;
 }
 
@@ -196,7 +197,7 @@ li:active {
     align-items: center;
     justify-content: center;
     width: 98%;
-    height: 19.7%;
+    height: 19.75%;
     background-color: rgb(75, 75, 75);
 }
 </style>

@@ -56,11 +56,10 @@ div {
     justify-content: flex-end;
     width: 100%;
     height: 25vh;
-    background-color: rgb(34, 36, 34);
+    background-color: rgb(29, 36, 29);
     color: rgb(255, 255, 255);
-    font-size: 15vw;
     padding: 5vw;
-    margin-bottom: 15vw;
+    margin-bottom: 5vw;
     font-family: PixelFont;
     /* animation: RetroBlink 2s infinite; */
 }
