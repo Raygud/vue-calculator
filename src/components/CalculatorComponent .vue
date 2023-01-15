@@ -13,6 +13,7 @@
         </ol>
 
         <ol class="Operators">
+            <li></li>
             <li @click="SetMethod(Add)">+</li>
             <li @click="SetMethod(Subtract)">-</li>
             <li @click="SetMethod(Divide)">/</li>
@@ -56,11 +57,11 @@ export default {
         ChangeSum(x) {
             console.log(this.Method)
             console.log(this.NumberToProcess)
-            this.Solved = 0
             if (x === "C") {
                 this.Sum = 0
                 this.NumberToProcess = 0
                 this.Method = null
+                this.Solved = 0
             }
             if (x === "CE") {
 
@@ -81,6 +82,7 @@ export default {
             else {
                 this.Sum = '' + this.Sum + x
                 this.Sum = parseInt(this.Sum)
+                this.Solved = 0
             }
 
         },
@@ -197,7 +199,7 @@ li:active {
     align-items: center;
     justify-content: center;
     width: 98%;
-    height: 19.75%;
+    height: 20%;
     background-color: rgb(75, 75, 75);
 }
 </style>
